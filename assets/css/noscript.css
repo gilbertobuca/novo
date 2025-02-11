@@ -1,0 +1,68 @@
+/*
+	Landed by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+/* Loader */
+
+	body.landing.is-preload:before {
+		display: none;
+	}
+
+	body.landing.is-preload:after {
+		display: none;
+	}
+
+	
+	.book-list {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 20px;
+	}
+	
+	.book-item {
+		background: #8a8383;
+		border: 1px solid #ddd;
+		padding: 20px;
+		margin: auto;
+		width: 220px;
+		box-shadow: 0 2px 4px #0000001a;
+		border-radius: 20px;
+		color: #333;
+	}
+	.book-item:hover{
+		border-radius: 60px;
+		background-color: #ffffff;
+		color: #000000;
+		transition: all 1s;
+	}
+	
+	.book-item a{
+		text-decoration: none;
+		color: #333;
+		font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+		font-weight: bold;
+		font-style: italic;
+	}
+	
+	.book-item a:hover{
+		display: inline;
+		background-color: red;
+		color: #ffffff;
+		font-family: Arial, Helvetica, sans-serif;
+		padding: 5px;
+		border-radius: 8px;
+		transition: all 1s;
+	
+	}
+	
+	.book-item h3 {
+		font-size: 18px;
+		margin-bottom: 10px;
+	}
+	
+	.book-item p {
+		font-size: 14px;
+		margin-bottom: 10px;
+	}
