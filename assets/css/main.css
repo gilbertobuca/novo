@@ -2445,6 +2445,11 @@ input[type="text"] {
     transition: transform 0.3s;
 }
 
+.novo{
+	padding: 50px 10px;
+	margin: 30px;
+}
+
 .book:hover {
     transform: scale(1.05);
 }
