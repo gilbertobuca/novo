@@ -2,17 +2,17 @@
 const livros = [
     {
         titulo: 'Contabilidade e gestão de custos',
-        imagem: 'images/cont1.jfif',
+        imagem: 'images/conta1.jfif',
         arquivo: 'https://www.google.co.ao/books/edition/Contabilidade_Gest%C3%A3o_de_Custos/mFzBEAAAQBAJ?hl=pt-PT&gbpv=1&dq=contabilidade+e+gest%C3%A3o&printsec=frontcover'
     },
     {
         titulo: 'Contabilidade de gestão: calculo de custos e valorização de inventários',
-        imagem: 'images/cont2.png',
+        imagem: 'images/conta2.png',
         arquivo: 'https://www.google.co.ao/books/edition/Contabilidade_de_Gest%C3%A3o_c%C3%A1lculo_de_cus/fePIEAAAQBAJ?hl=pt-PT&gbpv=1&dq=contabilidade+e+gest%C3%A3o&printsec=frontcover'
     },
     {
         titulo: 'Contabilidade de gestão avançada: gestão de custos e avaliação do desempenho',
-        imagem: 'images/cont3.jfif',
+        imagem: 'images/conta3.jfif',
         arquivo: 'https://www.google.co.ao/books/edition/Contabilidade_de_Gest%C3%A3o_Avan%C3%A7ada_gest/f-PIEAAAQBAJ?hl=pt-PT&gbpv=1&dq=contabilidade+e+gest%C3%A3o&printsec=frontcover'
     }
 ];
