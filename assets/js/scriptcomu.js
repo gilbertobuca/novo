@@ -1,9 +1,9 @@
 // Dados dos livros (exemplo)
 const livros = [
     {
-        titulo: '21 lições para o seculo XXI',
-        imagem: 'images/21licoes.jpeg',
-        arquivo: 'assets/livros/21_licoes.pdf'
+        titulo: 'O curso de comunicação social',
+        imagem: 'images/comu1.jfif',
+        arquivo: 'https://www.google.co.ao/books/edition/O_curso_de_comunica%C3%A7%C3%A3o_social_no_Brasi/wbVpRrU1omQC?hl=pt-PT&gbpv=1&dq=comunica%C3%A7%C3%A3o+social&pg=PA86&printsec=frontcover'
     },
     {
         titulo: 'Sapiens: Uma breve história da humanidade',
@@ -14,21 +14,6 @@ const livros = [
         titulo: 'Pai rico e Pai pobre',
         imagem: 'images/pai.jpeg',
         arquivo: 'assets/livros/pai.pdf'
-    },
-    {
-        titulo: 'Literaturas de língua portuguesa',
-        imagem: 'images/litera1.jfif',
-        arquivo: 'https://www.google.co.ao/books/edition/Literaturas_de_l%C3%ADngua_portuguesa/sxDihLdQC58C?hl=pt-PT&gbpv=1&dq=livros+de+literatura+moderna+em+portugues&pg=PA13&printsec=frontcover'
-    },
-    {
-        titulo: 'Arte de marear',
-        imagem: 'images/litera2.jfif',
-        arquivo: 'https://www.google.co.ao/books/edition/Arte_de_marear/2G-8QmN6aqIC?hl=pt-PT&gbpv=1&dq=livros+de+literatura+moderna+em+portugues&pg=PA31&printsec=frontcover'
-    },
-    {
-        titulo: 'O livro no Brasil',
-        imagem: 'images/litera3.jfif',
-        arquivo: 'https://www.google.co.ao/books/edition/O_livro_no_Brasil/0b6ZYWrQtnsC?hl=pt-PT&gbpv=1&dq=livros+de+literatura+moderna+em+portugues&pg=PA565&printsec=frontcover'
     }
 ];
 

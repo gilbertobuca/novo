@@ -1,34 +1,19 @@
 // Dados dos livros (exemplo)
 const livros = [
     {
-        titulo: '21 lições para o seculo XXI',
+        titulo: 'Tecnologias de programação',
         imagem: 'images/21licoes.jpeg',
-        arquivo: 'assets/livros/21_licoes.pdf'
+        arquivo: 'https://www.google.co.ao/books/edition/T%C3%A9cnicas_de_Programa%C3%A7%C3%A3o_Uma_Abordagem/H8A0lZtqaXsC?hl=pt-PT&gbpv=1'
     },
     {
-        titulo: 'Sapiens: Uma breve história da humanidade',
+        titulo: 'Redes de computadores e a internet',
         imagem: 'images/sapiens.jpg',
-        arquivo: 'assets/livros/sapiens.pdf'
+        arquivo: 'https://www.google.co.ao/books/edition/Redes_de_computadores_e_a_Internet_coedi/DtFJEAAAQBAJ?hl=pt-PT&gbpv=1&dq=redes+de+computador&printsec=frontcoverassets/livros/sapiens.pdf'
     },
     {
-        titulo: 'Pai rico e Pai pobre',
+        titulo: 'Efetividade das tecnologias de informação',
         imagem: 'images/pai.jpeg',
-        arquivo: 'assets/livros/pai.pdf'
-    },
-    {
-        titulo: 'Literaturas de língua portuguesa',
-        imagem: 'images/litera1.jfif',
-        arquivo: 'https://www.google.co.ao/books/edition/Literaturas_de_l%C3%ADngua_portuguesa/sxDihLdQC58C?hl=pt-PT&gbpv=1&dq=livros+de+literatura+moderna+em+portugues&pg=PA13&printsec=frontcover'
-    },
-    {
-        titulo: 'Arte de marear',
-        imagem: 'images/litera2.jfif',
-        arquivo: 'https://www.google.co.ao/books/edition/Arte_de_marear/2G-8QmN6aqIC?hl=pt-PT&gbpv=1&dq=livros+de+literatura+moderna+em+portugues&pg=PA31&printsec=frontcover'
-    },
-    {
-        titulo: 'O livro no Brasil',
-        imagem: 'images/litera3.jfif',
-        arquivo: 'https://www.google.co.ao/books/edition/O_livro_no_Brasil/0b6ZYWrQtnsC?hl=pt-PT&gbpv=1&dq=livros+de+literatura+moderna+em+portugues&pg=PA565&printsec=frontcover'
+        arquivo: 'https://www.google.co.ao/books/edition/Efetividade_das_tecnologias_da_informa%C3%A7/u_IxEAAAQBAJ?hl=pt-PT&gbpv=1&dq=tecnologia+de+informa%C3%A7%C3%A3o+e+comunica%C3%A7%C3%A3o+portugues&pg=PA25&printsec=frontcover'
     }
 ];
 

@@ -22,15 +22,24 @@
 			</header>
 
 			<!-- Banner -->
-				<section id="banner">
-					<div class="content">
-						<header>
-							<h2>Seja bem-vindo .</h2>
-							<p>Esperamos que tenha uma experiência agradavel.</p>
-						</header>
-						<span class="image"><img src="images/livro.jpg" alt="" /></span>
-					</div>
-				</section>
+			<section id="banner">
+				<div class="content">
+					<header>
+						<h2>Seja bem-vindo .</h2>
+						<p>Esperamos que tenha uma experiência agradavel.</p>
+					</header>
+					<span class="image"><img src="images/livro.jpg" alt="" /></span>
+				</div>
+				<div class="content">
+					<h1>Biblioteca de Livros</h1>
+
+					<!-- Campo de pesquisa -->
+					<input type="text" id="searchInput" placeholder="Pesquisar livros..." onkeyup="pesquisarLivros()">
+				
+					<!-- Área para os livros -->
+					<div id="bookContainer" class="book-container"></div>
+				</div>
+			</section>
 
 				<footer id="footer">
 					<ul class="icons">
@@ -54,6 +63,7 @@
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/scriptdese.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
