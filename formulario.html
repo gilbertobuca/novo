@@ -10,7 +10,7 @@
 <body>
     <div class="container">
         <div class="formulario">
-            <form method="post" action="Principal.html">
+            <form action="conexao.php" method="post">
                 <div class="form-header">
                     <div class="form-title">
                         <h1>Cadastre-se</h1>
@@ -30,17 +30,12 @@
 
                     <div class="input-box">
                         <label for="Email">E-mail</label>
-                        <input  id="Email" type="email" name="Email" placeholder="Digite seu E-mail" required>
+                        <input  id="Email" type="email" name="email" placeholder="Digite seu E-mail" required>
                     </div>
 
                     <div class="input-box">
                         <label for="Number">Número de telefone</label>
-                        <input  id="Number" type="number" name="Number" placeholder="(+xxx) xxx-xxx-xxx" required>
-                    </div>
-
-                    <div class="input-box">
-                        <label for="Password">Chave de acesso</label>
-                        <input  id="Password" type="password" name="Password" placeholder=" Digite a Chave de acesso" required>
+                        <input  id="Number" type="number" name="number" placeholder="(+xxx) xxx-xxx-xxx" required>
                     </div>
         
                 </div>
@@ -60,6 +55,11 @@
                     <div class="gender-input">
                         <input type="radio" name="gender" id="female">
                         <label for="female">Feminino</label>
+                    </div>
+                    
+                    <div class="input-box">
+                        <label for="Password">Chave de acesso</label>
+                        <input  id="Password" type="password" name="password" placeholder=" Digite a Chave de acesso" required>
                     </div>
 
                     <div class="divbutton"><input type="submit" value="Entrar"></div>
